@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import Header from './components/Header';
+import Display from './components/Display';
+import Details from './components/Details';
+import ButtonRow from './components/ButtonRow';
 import './App.css';
+import ButtonRowSelector from './components/ButtonRowSelector';
 
 function App() {
+  const [screen, setScreen] = useState('folio');
+
+  const handleSelectBtn = (screen) => {
+    console.log('working');
+    setScreen(screen);
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Display />
+      <Details />
+      <ButtonRow onButtonClick={handleSelectBtn} />
+      <ButtonRowSelector screen={screen} />
     </div>
   );
 }
