@@ -1,7 +1,7 @@
 {
   "name": "folio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@react-three/drei": "^8.12.1",
     "@react-three/fiber": "^7.0.26",
