@@ -212,7 +212,7 @@ const Folio = () => {
         <pointLight position={[10, 10, 10]} />
         <OrbitControls
           enablePan={true}
-          enableZoom={true}
+          enableZoom={false}
           enableRotate={true}
           autoRotate={true}
         />

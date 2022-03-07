@@ -53,9 +53,9 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  width: 95%;
-  margin: 0 auto;
+  grid-gap: 5px;
+  width: 93%;
+  margin: 10px auto;
   height: 265px;
 }
 
@@ -74,6 +74,7 @@
   height: 220px;
   margin-top: 10px;
   padding: 30px;
+  margin: 2% 2%;
 }
 
 .detail h3 {
@@ -153,7 +154,7 @@
 .contact {
   height: 260px;
   background-color: #8fc0a9;
-  width: 95%;
+  width: 97%;
   margin: 0 auto;
   border-radius: 15px;
   padding-bottom: 20px;
