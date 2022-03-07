@@ -16,12 +16,13 @@ function App() {
     console.log('working');
     setScreen(screen);
   };
+
   return (
     <div className="App">
       <Header />
       <Display />
       <Details />
-      <ButtonRow onButtonClick={handleSelectBtn} />
+      <ButtonRow onButtonClick={handleSelectBtn} screen={screen} />
       <ButtonRowSelector screen={screen} />
       <Contact />
       <Footer />

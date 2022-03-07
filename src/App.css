@@ -102,6 +102,16 @@
   padding-top: 10px;
 }
 
+.grid-row-btn-v-selected {
+  margin-top: -25px;
+  text-align: center;
+  background-color: #969f8b;
+  border-radius: 15px;
+  color: white;
+  height: 60px;
+  padding-top: 10px;
+}
+
 .grid-row-btn-v button {
   font-size: 22px;
   margin-top: -10px;
@@ -109,6 +119,19 @@
   border: none;
   text-align: center;
   background-color: #c8d5b9;
+  border-radius: 15px;
+  height: 60px;
+  width: 100%;
+  color: white;
+  padding-top: 10px;
+}
+
+.grid-row-btn-v-selected button {
+  font-size: 22px;
+  margin-top: -10px;
+  padding-bottom: 20px;
+  border: none;
+  text-align: center;
   border-radius: 15px;
   height: 60px;
   width: 100%;

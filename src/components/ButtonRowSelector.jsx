@@ -23,12 +23,6 @@ const ButtonRowSelector = ({ screen }) => {
         <ClientsCarousel />
       </div>
     );
-  } else if (view === 'github') {
-    return (
-      <div id="carousel">
-        <Github />
-      </div>
-    );
   } else if (view === 'education') {
     return (
       <div id="carousel">
