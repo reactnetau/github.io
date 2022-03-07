@@ -3,8 +3,11 @@ import Header from './components/Header';
 import Display from './components/Display';
 import Details from './components/Details';
 import ButtonRow from './components/ButtonRow';
-import './App.css';
 import ButtonRowSelector from './components/ButtonRowSelector';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+import './App.css';
 
 function App() {
   const [screen, setScreen] = useState('folio');
@@ -20,6 +23,8 @@ function App() {
       <Details />
       <ButtonRow onButtonClick={handleSelectBtn} />
       <ButtonRowSelector screen={screen} />
+      <Contact />
+      <Footer />
     </div>
   );
 }

@@ -6,12 +6,12 @@ const Details = () => {
     <div className="grid container">
       <Detail
         title="Front End Development"
-        description="React solutions using HTML, SCSS, Javascript/Typescript, NextJS and GraphQL."
+        description="React solutions using HTML, SCSS, Javascript/Typescript, NextJS."
       />
 
       <Detail
         title="Back End Development"
-        description="Node, Express, MongoDB, Amazon Web Service, NextJS"
+        description="Node, Express, MongoDB, Amazon Web Service, NextJS and GraphQL"
       />
 
       <Detail

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ClientsCarousel from './Buttons/ClientsCarousel';
 import Folio from './Buttons/Folio';
 import Github from './Buttons/Github';
-import Experience from './Buttons/Experience';
+import Education from './Buttons/Education';
 
 const ButtonRowSelector = ({ screen }) => {
   useEffect(() => {
@@ -29,10 +29,10 @@ const ButtonRowSelector = ({ screen }) => {
         <Github />
       </div>
     );
-  } else if (view === 'experience') {
+  } else if (view === 'education') {
     return (
       <div id="carousel">
-        <Experience />
+        <Education />
       </div>
     );
   }

@@ -11,9 +11,6 @@ import fairtrade from './../../img/fairtradearcade.png';
 import FolioDetails from '../popups/FolioDetails';
 
 const Folio = () => {
-  const [title, setTitle] = useState('');
-  const [description, setDescription] = useState('');
-  const [image, setImage] = useState('');
   const [visible, setVisible] = useState(false);
   const [index, setIndex] = useState(0);
 
@@ -21,23 +18,31 @@ const Folio = () => {
     {
       title: 'Suicide Squad Interactive',
       description:
-        'Developed for Supanova in Sydney, this was a native app that allowed the user to heavily customize a Suicide Squad image and email it to themselves.',
+        'Developed for Supanova in Sydney, this was a native app that allowed the user to heavily customize a Suicide Squad image and email it to themselves. Backend features used PHP to generated a JPG and send an email.',
       image: suicide,
     },
     {
       title: 'Facebook Calendar App',
-      description: 'Facebook Calendar App',
+      description:
+        'Developed for DDG, this Facebook application used the Facebook API to collect and generate a calendar with the birthdays of your facebook friends. Backend features included saving images to the server and generating a PDF document for printing.',
       image: calendar,
     },
     {
       title: 'Unfairly Desserted Flavours',
-      description: 'Unfairly Desserted Flavours',
+      description:
+        'Developed for Maynard Malone, London. This application was a Facebook app which allowed the users to vote for their favourite ice cream flavour. Data was collected and displayed for each country of Europe. Back end was in PHP and front end was in Flash. This also was a Davey award.',
       image: unfair,
     },
-    { title: 'Kinder Kids', description: 'Kinder Kids', image: kinder },
+    {
+      title: 'Kinder Kids',
+      description:
+        'Kinder Kids was a personal project developed for the App stores. It included Dot2Dot, a Piano and a painting feature. This was built using Adobe AIR for Mobile, it was on the Apple App Store and Google Play.',
+      image: kinder,
+    },
     {
       title: 'Fairtrade Arcade',
-      description: 'Fairtrade Arcade',
+      description:
+        'Fairtrade Arcade was developed for Maynard Malone London. It consisted of many mini games and was launched across Europe. Scores were based on region and the application was multiligual using XML. Backend was done in PHP and frontend was done in Flash.',
       image: fairtrade,
     },
   ];
@@ -69,7 +74,7 @@ const Folio = () => {
     // This reference will give us direct access to the mesh
     const mesh = useRef();
     // Set up state for the hovered and active state
-    const [hovered, setHover] = useState(false);
+
     const [active, setActive] = useState(false);
     // Rotate mesh every frame, this is outside of React without overhead
     //useFrame(() => (mesh.current.rotation.x += 0.01));
@@ -94,7 +99,7 @@ const Folio = () => {
     // This reference will give us direct access to the mesh
     const mesh = useRef();
     // Set up state for the hovered and active state
-    const [hovered, setHover] = useState(false);
+
     const [active, setActive] = useState(false);
     // Rotate mesh every frame, this is outside of React without overhead
     //useFrame(() => (mesh.current.rotation.x += 0.01));
@@ -119,7 +124,7 @@ const Folio = () => {
     // This reference will give us direct access to the mesh
     const mesh = useRef();
     // Set up state for the hovered and active state
-    const [hovered, setHover] = useState(false);
+
     const [active, setActive] = useState(false);
     // Rotate mesh every frame, this is outside of React without overhead
     //useFrame(() => (mesh.current.rotation.x += 0.01));
@@ -144,7 +149,7 @@ const Folio = () => {
     // This reference will give us direct access to the mesh
     const mesh = useRef();
     // Set up state for the hovered and active state
-    const [hovered, setHover] = useState(false);
+
     const [active, setActive] = useState(false);
     // Rotate mesh every frame, this is outside of React without overhead
     //useFrame(() => (mesh.current.rotation.x += 0.01));
@@ -169,7 +174,7 @@ const Folio = () => {
     // This reference will give us direct access to the mesh
     const mesh = useRef();
     // Set up state for the hovered and active state
-    const [hovered, setHover] = useState(false);
+
     const [active, setActive] = useState(false);
     // Rotate mesh every frame, this is outside of React without overhead
     //useFrame(() => (mesh.current.rotation.x += 0.01));

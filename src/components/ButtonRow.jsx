@@ -3,12 +3,11 @@ import RowBtn from './RowBtn';
 const ButtonRow = ({ onSelectRowBtn, onButtonClick }) => {
   return (
     <div className="btn-grid">
-      <RowBtn title="Folio" onButtonClick={() => onButtonClick('folio')} />
+      <RowBtn title="Work" onButtonClick={() => onButtonClick('folio')} />
       <RowBtn title="Clients" onButtonClick={() => onButtonClick('clients')} />
-      <RowBtn title="GitHub" onButtonClick={() => onButtonClick('github')} />
       <RowBtn
-        title="Experience"
-        onButtonClick={() => onButtonClick('experience')}
+        title="Education"
+        onButtonClick={() => onButtonClick('education')}
       />
     </div>
   );

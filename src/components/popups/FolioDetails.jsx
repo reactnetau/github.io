@@ -2,7 +2,7 @@ import React from 'react';
 
 const FolioDetails = ({ box: { title, description, image }, setVisible }) => {
   return (
-    <div className="folio-popup">
+    <div style={{ borderRadius: '15px' }}>
       <img
         src={image && image}
         style={{
@@ -11,7 +11,9 @@ const FolioDetails = ({ box: { title, description, image }, setVisible }) => {
           margin: '25px',
           display: 'inline',
           float: 'left',
+          borderRadius: '15px',
         }}
+        alt="pop up details"
       />
       <h1
         style={{
@@ -29,6 +31,7 @@ const FolioDetails = ({ box: { title, description, image }, setVisible }) => {
           position: 'absolute',
           left: '252px',
           top: '80px',
+          width: '60%',
         }}
       >
         {description}
