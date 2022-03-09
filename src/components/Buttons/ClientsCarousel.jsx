@@ -9,17 +9,22 @@ function ClientsCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect} interval={5000}>
+    <Carousel
+      className="carousel-clients"
+      activeIndex={index}
+      onSelect={handleSelect}
+      interval={5000}
+    >
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={require('./../../img/clemenger.jpg')}
           alt="First slide"
         />
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>Clemenger BBDO</h3>
           <p>Melbourne, Australia</p>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -28,10 +33,10 @@ function ClientsCarousel() {
           alt="Second slide"
         />
 
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>AJF Partnership</h3>
           <p>Melbourne, Australia</p>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -40,10 +45,10 @@ function ClientsCarousel() {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>Big Red Group</h3>
           <p>Melbourne, Australia</p>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
       =
       <Carousel.Item>
@@ -53,10 +58,10 @@ function ClientsCarousel() {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>Direct Digital Group</h3>
           <p>Melbourne, Australia</p>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -65,10 +70,10 @@ function ClientsCarousel() {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>Maynard Malone</h3>
           <p>London, United Kingdom</p>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -77,10 +82,10 @@ function ClientsCarousel() {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>TRO Group</h3>
           <p>Melbourne, Australia</p>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
     </Carousel>
   );

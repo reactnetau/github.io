@@ -4,7 +4,7 @@ const Display = () => {
   return (
     <div className="display">
       <h1 className="display-title">ReactJS Solutions</h1>
-      <p className="display-sub">Mobile and Web</p>
+      <p className="display-sub">Mobile and Web Apps</p>
     </div>
   );
 };

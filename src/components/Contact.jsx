@@ -10,7 +10,7 @@ const Contact = () => {
         <h3>Linkedin</h3>
         <p>
           <a href="https://www.linkedin.com/in/reactnetau">
-            https://www.linkedin.com/in/reactnetau
+            linkedin.com/in/reactnetau
           </a>
         </p>
       </div>
@@ -24,6 +24,12 @@ const Contact = () => {
         <h3>Mobile</h3>
         <p>
           <a href="tel:+61430744579">+61430744579</a>
+        </p>
+      </div>
+      <div className="contact-box">
+        <h3>Github</h3>
+        <p>
+          <a href="https://github.com/reactnetau">github.com/reactnetau</a>
         </p>
       </div>
     </div>
