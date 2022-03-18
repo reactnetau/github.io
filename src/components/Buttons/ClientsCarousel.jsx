@@ -14,11 +14,12 @@ function ClientsCarousel() {
       activeIndex={index}
       onSelect={handleSelect}
       interval={5000}
+      
     >
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={require('./../../img/clemenger.jpg')}
+          src={require('./../../img/clemenger.gif')}
           alt="First slide"
         />
         {/* <Carousel.Caption>

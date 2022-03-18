@@ -1,0 +1,38 @@
+@use './../abstracts/' as *;
+
+.education {
+  width: 97%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #8fc0a9;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  clear: both;
+  text-align: center;
+}
+
+.education h3 {
+  text-align: center;
+  color: white;
+}
+
+.education-box {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  background-color: #c8d5b9;
+  margin: 5px 5px;
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
+.education-box h4 {
+  color: white;
+  text-align: center;
+}
+
+.education-box p {
+  color: white;
+  text-align: center;
+}

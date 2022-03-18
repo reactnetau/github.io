@@ -1,0 +1,7 @@
+@use '../abstracts/' as *;
+
+.App {
+  display: block;
+  background-color: $backgroundColor;
+  margin: 0 auto 25px auto;
+}

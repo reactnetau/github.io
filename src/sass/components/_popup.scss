@@ -1,0 +1,12 @@
+@use './../abstracts/' as *;
+
+.popup {
+  float: left;
+  position: relative;
+  width: 90%;
+  height: 250px;
+  background-color: #c8d5b9;
+  margin-top: -400px;
+  margin-left: 5%;
+  border-radius: 15px;
+}

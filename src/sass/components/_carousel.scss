@@ -1,0 +1,12 @@
+@use './../abstracts/' as *;
+
+#carousel {
+  height: 100%;
+  margin-bottom: 25px;
+}
+
+.carousel-clients {
+  width: 800px;
+  height: 400px;
+  margin: 10px auto;
+}
