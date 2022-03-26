@@ -1,13 +1,87 @@
 @use './../abstracts/' as *;
 
+@media (max-width: 576px) {
+  .contact-box-left {
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px 50px;
+    text-align: center;
+    width: 90%;
+    background-color: #c8d5b9;
+    margin: 10px;
+  }
+
+  .contact-box-right {
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px 50px;
+    text-align: center;
+    width: 90%;
+    background-color: #c8d5b9;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .contact-box-left {
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px 50px;
+    text-align: center;
+    width: 90%;
+    background-color: #c8d5b9;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contact-box-right {
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px 50px;
+    text-align: center;
+    width: 90%;
+    background-color: #c8d5b9;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-box-left {
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px 50px;
+    text-align: center;
+    width: 95%;
+    background-color: #c8d5b9;
+    margin: 10px;
+    margin-left: 20px;
+  }
+  .contact-box-right {
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px 50px;
+    text-align: center;
+    width: 95%;
+    background-color: #c8d5b9;
+    margin: 10px;
+    margin-left: -10px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
 .contact {
-  height: 265px;
   background-color: #8fc0a9;
-  width: 97%;
+  width: 100%;
   margin: 0 auto;
   border-radius: 15px;
   padding-bottom: 20px;
-  clear: both;
+
   text-align: center;
 }
 
@@ -25,15 +99,6 @@
 .contact h4 {
   color: white;
   text-align: center;
-}
-
-.contact-box {
-  border-radius: 15px;
-  display: inline-block;
-  width: 22.6%;
-  text-align: center;
-  background-color: #c8d5b9;
-  margin: 10px 10px 10px 10px;
 }
 
 .contact-box h3 {

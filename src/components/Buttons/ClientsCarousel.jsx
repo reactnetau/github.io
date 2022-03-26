@@ -14,7 +14,6 @@ function ClientsCarousel() {
       activeIndex={index}
       onSelect={handleSelect}
       interval={5000}
-      
     >
       <Carousel.Item>
         <img
@@ -22,10 +21,6 @@ function ClientsCarousel() {
           src={require('./../../img/clemenger.gif')}
           alt="First slide"
         />
-        {/* <Carousel.Caption>
-          <h3>Clemenger BBDO</h3>
-          <p>Melbourne, Australia</p>
-        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -33,11 +28,6 @@ function ClientsCarousel() {
           src={require('./../../img/ajf.jpg')}
           alt="Second slide"
         />
-
-        {/* <Carousel.Caption>
-          <h3>AJF Partnership</h3>
-          <p>Melbourne, Australia</p>
-        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -45,11 +35,6 @@ function ClientsCarousel() {
           src={require('./../../img/bigred.jpg')}
           alt="Third slide"
         />
-
-        {/* <Carousel.Caption>
-          <h3>Big Red Group</h3>
-          <p>Melbourne, Australia</p>
-        </Carousel.Caption> */}
       </Carousel.Item>
       =
       <Carousel.Item>
@@ -58,11 +43,6 @@ function ClientsCarousel() {
           src={require('./../../img/ddg.jpg')}
           alt="Third slide"
         />
-
-        {/* <Carousel.Caption>
-          <h3>Direct Digital Group</h3>
-          <p>Melbourne, Australia</p>
-        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -70,11 +50,6 @@ function ClientsCarousel() {
           src={require('./../../img/maynard.jpg')}
           alt="Third slide"
         />
-
-        {/* <Carousel.Caption>
-          <h3>Maynard Malone</h3>
-          <p>London, United Kingdom</p>
-        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -82,11 +57,6 @@ function ClientsCarousel() {
           src={require('./../../img/tro.jpg')}
           alt="Third slide"
         />
-
-        {/* <Carousel.Caption>
-          <h3>TRO Group</h3>
-          <p>Melbourne, Australia</p>
-        </Carousel.Caption> */}
       </Carousel.Item>
     </Carousel>
   );
