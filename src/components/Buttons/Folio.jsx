@@ -262,7 +262,7 @@ const Folio = () => {
           />
         </Suspense>
       </Canvas>
-      <div className="popup" style={setPopUp()}>
+      <div style={setPopUp()}>
         <FolioDetails box={popupArray[index]} setVisible={setVisible} />
       </div>
     </div>

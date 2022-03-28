@@ -1,17 +1,9 @@
 @use './../abstracts/' as *;
 
 @media (max-width: 576px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    width: 93%;
-    margin: 10px auto;
-    height: 265px;
-  }
+  @include grid;
 
   .detail {
-    background-color: #8fc0a9;
     border-radius: 15px;
     height: 220px;
     margin-top: 10px;
@@ -28,44 +20,19 @@
     padding-top: 25px;
     margin: 4% 4%;
     float: left;
-  }
-
-  .detail h3 {
-    font-family: 'Roboto';
-    font-weight: 700;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .detail p {
-    width: 80%;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 20px;
   }
 }
 
 @media (min-width: 576px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    width: 93%;
-    margin: 10px auto;
-    height: 265px;
-  }
+  @include grid;
 
   .detail {
-    background-color: #8fc0a9;
     border-radius: 15px;
     height: 220px;
     margin-top: 10px;
     margin-bottom: 30px;
 
     margin: 10px 2% 10px 2%;
-    /* background-image: url('./img/detail1.png'); */
   }
 
   .detail-inner {
@@ -76,36 +43,12 @@
     margin: 4% 4%;
     float: left;
   }
-
-  .detail h3 {
-    font-family: 'Roboto';
-    font-weight: 700;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .detail p {
-    width: 80%;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 20px;
-  }
 }
 
 @media (min-width: 768px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    width: 93%;
-    margin: 10px auto;
-    height: 265px;
-  }
+  @include grid;
 
   .detail {
-    background-color: #8fc0a9;
     border-radius: 15px;
     height: 280px;
     margin-top: 10px;
@@ -123,36 +66,12 @@
     margin: 4% 4%;
     float: left;
   }
-
-  .detail h3 {
-    font-family: 'Roboto';
-    font-weight: 700;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .detail p {
-    width: 80%;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 20px;
-  }
 }
 
 @media (min-width: 992px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    width: 93%;
-    margin: 10px auto;
-    height: 265px;
-  }
+  @include grid;
 
   .detail {
-    background-color: #8fc0a9;
     border-radius: 15px;
     height: 220px;
     margin-top: 10px;
@@ -170,36 +89,12 @@
     margin: 4% 4%;
     float: left;
   }
-
-  .detail h3 {
-    font-family: 'Roboto';
-    font-weight: 700;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .detail p {
-    width: 80%;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 20px;
-  }
 }
 
 @media (min-width: 1200px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    width: 93%;
-    margin: 10px auto;
-    height: 265px;
-  }
+  @include grid;
 
   .detail {
-    background-color: #8fc0a9;
     border-radius: 15px;
     height: 220px;
     margin-top: 10px;
@@ -216,21 +111,5 @@
     padding-top: 25px;
     margin: 4% 4%;
     float: left;
-  }
-
-  .detail h3 {
-    font-family: 'Roboto';
-    font-weight: 700;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .detail p {
-    width: 80%;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 20px;
   }
 }

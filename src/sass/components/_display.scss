@@ -4,60 +4,46 @@
   .display {
     height: 170px;
     background-image: url('../../img/header.png');
-    background-color: #c8d5b9;
-  }
 
-  .display .display-title {
-    color: white;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 40px;
-    text-align: center;
-    width: 90%;
-    padding-top: 40px;
-    margin: 0 auto;
-    text-shadow: 2px 2px black;
-  }
-
-  .display .display-sub {
-    color: white;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-    text-shadow: 2px 2px black;
+    .display-title {
+      color: $lightText;
+      font-family: $font;
+      font-weight: 700;
+      font-size: 40px;
+      text-align: center;
+      width: 90%;
+      padding-top: 40px;
+      margin: 0 auto;
+      text-shadow: 2px 2px black;
+    }
   }
 }
 @media (min-width: 576px) {
   .display {
     height: 170px;
     background-image: url('../../img/header.png');
-    background-color: #c8d5b9;
-  }
 
-  .display .display-title {
-    color: white;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 40px;
-    text-align: center;
-    width: 90%;
-    padding-top: 40px;
-    margin: 0 auto;
-    text-shadow: 2px 2px black;
-  }
-
-  .display .display-sub {
-    color: white;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-    text-shadow: 2px 2px black;
+    .display-title {
+      color: $lightText;
+      font-family: $font;
+      font-weight: 700;
+      font-size: 40px;
+      text-align: center;
+      width: 90%;
+      padding-top: 40px;
+      margin: 0 auto;
+      text-shadow: 2px 2px black;
+    }
+    .display-sub {
+      color: $lightText;
+      font-family: $font;
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+      width: 70%;
+      margin: 0 auto;
+      text-shadow: 2px 2px black;
+    }
   }
 }
 
@@ -65,29 +51,26 @@
   .display {
     height: 320px;
     background-image: url('../../img/header.png');
-    background-color: #c8d5b9;
-  }
-
-  .display .display-title {
-    color: white;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 80px;
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    text-shadow: 2px 2px black;
-  }
-
-  .display .display-sub {
-    color: white;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-    text-shadow: 2px 2px black;
+    .display-title {
+      color: $lightText;
+      font-family: $font;
+      font-weight: 700;
+      font-size: 80px;
+      text-align: center;
+      width: 90%;
+      margin: 0 auto;
+      text-shadow: 2px 2px black;
+    }
+    .display-sub {
+      color: $lightText;
+      font-family: $font;
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+      width: 70%;
+      margin: 0 auto;
+      text-shadow: 2px 2px black;
+    }
   }
 }
 
@@ -95,28 +78,26 @@
   .display {
     height: 220px;
     background-image: url('../../img/header.png');
-    background-color: #c8d5b9;
-  }
 
-  .display .display-title {
-    color: white;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 80px;
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    text-shadow: 2px 2px black;
-  }
-
-  .display .display-sub {
-    color: white;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-    text-shadow: 2px 2px black;
+    .display-title {
+      color: $lightText;
+      font-family: $font;
+      font-weight: 700;
+      font-size: 80px;
+      text-align: center;
+      width: 90%;
+      margin: 0 auto;
+      text-shadow: 2px 2px black;
+    }
+    .display-sub {
+      color: $lightText;
+      font-family: $font;
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+      width: 70%;
+      margin: 0 auto;
+      text-shadow: 2px 2px black;
+    }
   }
 }

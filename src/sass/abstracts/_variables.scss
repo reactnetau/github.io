@@ -2,7 +2,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 $backgroundColor: #faf3dd;
-
-//Button
+$componentBackgroundColor: #8fc0a9;
+$subBackgroundColor: #c8d5b9;
 $gridRowBtn: #c8d5b9;
 $gridRowBtnSelected: #86907b;
+
+$font: 'Roboto', sans-serif;
+
+$lightText: white;
+
+@mixin contact-box {
+  border-radius: 15px;
+  display: inline-block;
+  padding: 10px 50px;
+  text-align: center;
+  background-color: $subBackgroundColor;
+}
+
+@mixin grid {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    width: 93%;
+    margin: 10px auto;
+    height: 265px;
+  }
+
+  h3 {
+    font-family: $font;
+    font-weight: 700;
+    color: $lightText;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  p {
+    width: 80%;
+    color: $lightText;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+}

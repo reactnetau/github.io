@@ -11,7 +11,7 @@ const Details = () => {
       <Col xs={12} sm={12} md={4}>
         <Detail
           title="Front End Development"
-          description="React solutions using HTML, SCSS, Javascript/Typescript, NextJS."
+          description="React solutions using HTML, SCSS, Javascript, Typescript, NextJS."
           back={Detail1}
         />
       </Col>

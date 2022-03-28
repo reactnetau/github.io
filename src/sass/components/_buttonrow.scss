@@ -1,17 +1,5 @@
 @use './../abstracts/' as *;
 
-// @media (max-width: 576px) {
-// }
-
-// @media (min-width: 576px) {
-// }
-
-// @media (min-width: 768px) {
-// }
-
-// @media (min-width: 992px) {
-
-// }
 .btn-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

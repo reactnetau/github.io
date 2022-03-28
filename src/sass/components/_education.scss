@@ -1,5 +1,74 @@
 @use './../abstracts/' as *;
 
+@media (max-width: 576px) {
+  .education-box {
+    display: inline-block;
+    width: 95%;
+    vertical-align: top;
+    background-color: #c8d5b9;
+    margin: 5px 5px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h4 {
+      color: $lightText;
+      text-align: center;
+    }
+
+    p {
+      color: $lightText;
+      text-align: center;
+    }
+  }
+}
+@media (min-width: 576px) {
+  .education-box {
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+    background-color: #c8d5b9;
+    margin: 5px 5px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h4 {
+      color: $lightText;
+      text-align: center;
+    }
+
+    p {
+      color: $lightText;
+      text-align: center;
+    }
+  }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  .education-box {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    background-color: #c8d5b9;
+    margin: 5px 5px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h4 {
+      color: $lightText;
+      text-align: center;
+    }
+
+    p {
+      color: $lightText;
+      text-align: center;
+    }
+  }
+}
+
 .education {
   width: 97%;
   height: 100%;
@@ -14,25 +83,5 @@
 
 .education h3 {
   text-align: center;
-  color: white;
-}
-
-.education-box {
-  display: inline-block;
-  width: 48%;
-  vertical-align: top;
-  background-color: #c8d5b9;
-  margin: 5px 5px;
-  border-radius: 15px;
-  padding-top: 10px;
-}
-
-.education-box h4 {
-  color: white;
-  text-align: center;
-}
-
-.education-box p {
-  color: white;
-  text-align: center;
+  color: $lightText;
 }
