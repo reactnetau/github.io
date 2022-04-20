@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/folio/static/css/main.d29a96f0.css",
+    "main.js": "/folio/static/js/main.7b5f6230.js",
+    "static/media/header.png": "/folio/static/media/header.0e291353abd36b4a1850.png",
+    "static/media/clemenger.gif": "/folio/static/media/clemenger.8dfa43e4580b9dfaa158.gif",
+    "static/media/detail2.png": "/folio/static/media/detail2.1dcf66c6643cc895fea0.png",
+    "static/media/suicide.jpg": "/folio/static/media/suicide.0f0a9d74b7c88da71a17.jpg",
+    "static/media/fairtradearcade.png": "/folio/static/media/fairtradearcade.dda0e9e5edc7615b95b6.png",
+    "static/media/detail1.png": "/folio/static/media/detail1.245a1e1e72395dde3e96.png",
+    "static/media/maynard.jpg": "/folio/static/media/maynard.839971f9045e4d81367d.jpg",
+    "static/media/ajf.jpg": "/folio/static/media/ajf.cd01f35809be9c00bc1e.jpg",
+    "static/media/tro.jpg": "/folio/static/media/tro.378c9a90f15872d22222.jpg",
+    "static/media/ddg.jpg": "/folio/static/media/ddg.6a9be45941d5d1895506.jpg",
+    "static/media/detail3.png": "/folio/static/media/detail3.50bec785320476214559.png",
+    "static/media/kinderkids.png": "/folio/static/media/kinderkids.44852812863907da8f96.png",
+    "static/media/bigred.jpg": "/folio/static/media/bigred.0aaeaf1c69607b8d668b.jpg",
+    "static/media/unfairly_flavours.png": "/folio/static/media/unfairly_flavours.91951d4311a6e71c567f.png",
+    "index.html": "/folio/index.html",
+    "main.d29a96f0.css.map": "/folio/static/css/main.d29a96f0.css.map",
+    "main.7b5f6230.js.map": "/folio/static/js/main.7b5f6230.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d29a96f0.css",
+    "static/js/main.7b5f6230.js"
+  ]
+}
