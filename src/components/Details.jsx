@@ -9,13 +9,13 @@ const Details = () => {
     <div className="grid container">
       <Detail
         title="Front End Development"
-        description="React solutions using HTML, SCSS, Javascript/Typescript, NextJS."
+        description="React solutions using HTML, SCSS, Javascript/Typescript"
         back={Detail1}
       />
 
       <Detail
         title="Back End Development"
-        description="Node, Express, MongoDB, Amazon Web Service, NextJS and GraphQL"
+        description="Node, Express, MongoDB and GraphQL"
         back={Detail2}
       />
 

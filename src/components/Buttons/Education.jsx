@@ -8,10 +8,6 @@ const Education = () => {
         <h4>Official</h4>
 
         <p>
-          Certified AWS Practitioner (2022)
-          <br />
-          Certified AWS Developer (2022)
-          <br />
           Holmesglen Tafe (2022) <br /> Diploma of Information Technology -
           Front End Technologies <br /> Diploma of Information Technology -
           Backend Technologies
@@ -25,15 +21,10 @@ const Education = () => {
           <br />
           React Native - Advanced Concepts
           <br />
-          Typescript: The Complete Developer's Guide
+          Typescript: The Complete Developer's Guide (current)
           <br />
-          Using Typescript with React
+          Using Typescript with React (current)
           <br />
-          AWS &amp; Typescript Masterclass - CDK, Serverless, React
-          <br />
-          Serverless React with AWS Amplify - The Complete Guide
-          <br />
-          AWS AppSync &amp; Amplify with React &amp; GraphQL - Complete Guide
           <br />
           Plus more...
         </p>
