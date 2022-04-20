@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Container, Row } from 'react-bootstrap';
 import Header from './components/Header';
 import Display from './components/Display';
 import Details from './components/Details';
@@ -18,15 +19,19 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <Header />
-      <Display />
-      <Details />
-      <ButtonRow onButtonClick={handleSelectBtn} screen={screen} />
-      <ButtonRowSelector screen={screen} />
-      <Contact />
-      <Footer />
-    </div>
+    <Container>
+      <Row>
+        <div className="App">
+          <Header />
+          <Display />
+          <Details />
+          <ButtonRow onButtonClick={handleSelectBtn} screen={screen} />
+          <ButtonRowSelector screen={screen} />
+          <Contact />
+          <Footer />
+        </div>
+      </Row>
+    </Container>
   );
 }
 

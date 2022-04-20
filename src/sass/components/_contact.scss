@@ -1,0 +1,124 @@
+@use './../abstracts/' as *;
+
+@media (max-width: 576px) {
+  .contact-box-left {
+    @include contact-box;
+
+    width: 90%;
+    margin: 10px;
+  }
+
+  .contact-box-right {
+    @include contact-box;
+    width: 90%;
+    margin: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+  }
+
+  h3 {
+    text-align: center;
+    color: $lightText;
+  }
+
+  h4 {
+    color: $lightText;
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .contact-box-left {
+    @include contact-box;
+    width: 90%;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contact-box-right {
+    @include contact-box;
+
+    width: 90%;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 10px;
+    color: $lightText;
+  }
+
+  h3 {
+    text-align: center;
+    color: $lightText;
+  }
+
+  h4 {
+    color: $lightText;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-box-left {
+    @include contact-box;
+    width: 95%;
+    margin: 10px;
+    margin-left: 20px;
+  }
+  .contact-box-right {
+    @include contact-box;
+    width: 95%;
+    margin: 10px;
+    margin-left: -10px;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 10px;
+    color: $lightText;
+  }
+
+  h3 {
+    text-align: center;
+    color: $lightText;
+  }
+
+  h4 {
+    color: $lightText;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+.contact {
+  background-color: $componentBackgroundColor;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding-bottom: 20px;
+
+  text-align: center;
+}
+
+.contact-box h3 {
+  color: $lightText;
+  padding-top: 10px;
+}
+.contact-box p {
+  color: $lightText;
+}

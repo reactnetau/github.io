@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className="footer">
-      <h1>react.net.au</h1>
+      <h1>  react.net.au</h1>
     </div>
   );
 };

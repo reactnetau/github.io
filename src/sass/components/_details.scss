@@ -1,0 +1,115 @@
+@use './../abstracts/' as *;
+
+@media (max-width: 576px) {
+  @include grid;
+
+  .detail {
+    border-radius: 15px;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    margin: 10px 2% 10px 2%;
+    /* background-image: url('./img/detail1.png'); */
+  }
+
+  .detail-inner {
+    background-color: rgba(143, 192, 169, 0.7);
+    border-radius: 15px;
+    height: 180px;
+    padding-top: 25px;
+    margin: 4% 4%;
+    float: left;
+  }
+}
+
+@media (min-width: 576px) {
+  @include grid;
+
+  .detail {
+    border-radius: 15px;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    margin: 10px 2% 10px 2%;
+  }
+
+  .detail-inner {
+    background-color: rgba(143, 192, 169, 0.7);
+    border-radius: 15px;
+    height: 180px;
+    padding-top: 25px;
+    margin: 4% 4%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) {
+  @include grid;
+
+  .detail {
+    border-radius: 15px;
+    height: 280px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    margin: 10px 2% 10px 2%;
+    /* background-image: url('./img/detail1.png'); */
+  }
+
+  .detail-inner {
+    background-color: rgba(143, 192, 169, 0.7);
+    border-radius: 15px;
+    height: 263px;
+    padding-top: 25px;
+    margin: 4% 4%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  @include grid;
+
+  .detail {
+    border-radius: 15px;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    margin: 10px 2% 10px 2%;
+    /* background-image: url('./img/detail1.png'); */
+  }
+
+  .detail-inner {
+    background-color: rgba(143, 192, 169, 0.7);
+    border-radius: 15px;
+    height: 197px;
+    padding-top: 25px;
+    margin: 4% 4%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  @include grid;
+
+  .detail {
+    border-radius: 15px;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    margin: 10px 2% 10px 2%;
+    /* background-image: url('./img/detail1.png'); */
+  }
+
+  .detail-inner {
+    background-color: rgba(143, 192, 169, 0.7);
+    border-radius: 15px;
+    height: 190px;
+    padding-top: 25px;
+    margin: 4% 4%;
+    float: left;
+  }
+}

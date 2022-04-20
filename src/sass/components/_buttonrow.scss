@@ -1,0 +1,58 @@
+@use './../abstracts/' as *;
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 97%;
+  margin: 0 auto;
+  height: 60px;
+  margin-top: 30px;
+}
+
+.grid-row-btn-v {
+  margin-top: -25px;
+  text-align: center;
+  background-color: $gridRowBtn;
+  border-radius: 15px;
+  color: white;
+  height: 60px;
+  padding-top: 10px;
+}
+
+.grid-row-btn-v-selected {
+  margin-top: -25px;
+  text-align: center;
+  background-color: $gridRowBtnSelected;
+  border-radius: 15px;
+  color: white;
+  height: 60px;
+  padding-top: 10px;
+}
+
+.grid-row-btn-v button {
+  font-size: 22px;
+  margin-top: -10px;
+  padding-bottom: 20px;
+  border: none;
+  text-align: center;
+  background-color: $gridRowBtn;
+  border-radius: 15px;
+  height: 60px;
+  width: 100%;
+  color: rgb(91, 89, 89);
+  padding-top: 10px;
+}
+
+.grid-row-btn-v-selected button {
+  font-size: 22px;
+  margin-top: -10px;
+  padding-bottom: 20px;
+  border: none;
+  text-align: center;
+  border-radius: 15px;
+  height: 60px;
+  width: 100%;
+  color: white;
+  padding-top: 10px;
+}
